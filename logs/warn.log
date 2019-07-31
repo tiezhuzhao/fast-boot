@@ -1,0 +1,17 @@
+[2019-07-31 23:18:28] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: BaseProvinces.
+[2019-07-31 23:18:29] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: BaseAreas.
+[2019-07-31 23:18:29] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: BaseCities.
+[2019-07-31 23:18:29] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: BaseCountry.
+[2019-07-31 23:29:56] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: BaseProvinces.
+[2019-07-31 23:29:56] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: BaseAreas.
+[2019-07-31 23:29:56] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: BaseCities.
+[2019-07-31 23:29:56] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: BaseCountry.
+[2019-07-31 23:33:29] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: BaseProvinces.
+[2019-07-31 23:33:29] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: BaseAreas.
+[2019-07-31 23:33:29] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: BaseCities.
+[2019-07-31 23:33:29] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: BaseCountry.
+[2019-07-31 23:36:30] WARN  com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean 457 buildSqlSessionFactory - Can't find class in '[com.ttsh.*.mapper]' package. Please check your configuration.
+[2019-07-31 23:36:30] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: com.test.region.entity.BaseProvinces.
+[2019-07-31 23:36:30] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: com.test.region.entity.BaseAreas.
+[2019-07-31 23:36:31] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: com.test.region.entity.BaseCities.
+[2019-07-31 23:36:31] WARN  com.baomidou.mybatisplus.core.toolkit.TableInfoHelper 275 initTableFields - Warn: Could not find @TableId in Class: com.test.region.entity.BaseCountry.

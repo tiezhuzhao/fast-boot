@@ -1,4 +1,4 @@
-# spring-boot-seed
+# fast-spring-boot
 springboot 2.0起步脚手架，开箱即用。
 
 #### 内容说明：
@@ -15,7 +15,7 @@ springboot 2.0起步脚手架，开箱即用。
 
 #### 开发说明：
 - 在intellij idea里导入项目
-- 在数据库里导入mc.sql
 - 修改mvc里面resources的配置文件内容
 - 运行mvc里面的McApplication.java
 - 代码自动生成在mvc里面的test下，自行修改对应的表
+- http://127.0.0.1:8000/doc.html

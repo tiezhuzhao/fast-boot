@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * Project: mc
- * Package: com.ttsh.mc.utils
+ * Package: com.test.common.utils
  * Description: ...
  *
  * @author: Mars

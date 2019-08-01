@@ -1,14 +1,14 @@
 package com.test.common.controller;
 
-import com.test.common.config.response.ResponseResult;
-import com.test.common.config.response.ResponseResultUtil;
+import com.test.common.config.response.Result;
+import com.test.common.config.response.R;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Project: mc
- * Package: com.ttsh.mc.controller
+ * Package: com.test.mc.controller
  * Description: ...
  * <p>
  * @author Mars
@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @GetMapping(value = "/login")
-    public ResponseResult login() throws Exception {
-        return ResponseResultUtil.success("登录成功");
+    public Result login() throws Exception {
+        return R.success("登录成功");
     }
 }

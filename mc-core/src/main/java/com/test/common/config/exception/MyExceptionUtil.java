@@ -1,9 +1,9 @@
 package com.test.common.config.exception;
 
 import cn.hutool.core.exceptions.ValidateException;
-import com.test.common.config.response.ResponseResult;
-import com.test.common.config.response.ResponseResultUtil;
-import com.test.common.config.response.ResponseCode;
+import com.test.common.config.response.Result;
+import com.test.common.config.response.R;
+import com.test.common.config.response.Code;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -14,7 +14,7 @@ import org.springframework.web.servlet.NoHandlerFoundException;
 
 /**
  * Project: mc
- * Package: com.ttsh.mc.config.exception
+ * Package: com.test.common.config.exception
  * Description: ...
  * <p>
  * @author Mars
@@ -25,20 +25,20 @@ public class MyExceptionUtil {
 
     @ExceptionHandler(Exception.class)
     @ResponseBody
-    public ResponseResult handle(Exception e) {
+    public Result handle(Exception e) {
         if (e instanceof MyException) {
             MyException myexception = (MyException) e;
-            return ResponseResultUtil.error(myexception.getCode(), myexception.getMessage(), myexception.getObj());
+            return R.error(myexception.getCode(), myexception.getMessage(), myexception.getObj());
         } else if (e instanceof ValidateException) {
             ValidateException ve = (ValidateException) e;
             String errors = ve.getMessage();
-            return ResponseResultUtil.error(ResponseCode.PARAMS_VALID_FAIL, errors, null);
+            return R.error(Code.PARAMS_VALID_FAIL, errors, null);
         } else if (e instanceof NoHandlerFoundException) {
-            return ResponseResultUtil.error(ResponseCode.NOT_FOUND, e.getMessage(), null);
+            return R.error(Code.NOT_FOUND, e.getMessage(), null);
         } else {
             Logger logger = LoggerFactory.getLogger(MyException.class);
             logger.error("[system excepiton] {}", e);
-            return ResponseResultUtil.error(ResponseCode.INTERNAL_SERVER_ERROR, e.getMessage());
+            return R.error(Code.INTERNAL_SERVER_ERROR, e.getMessage());
         }
     }
 }

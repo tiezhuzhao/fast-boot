@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * Project: mc
- * Package: com.ttsh.mc.config.druid
+ * Package: com.test.common.config.druid
  * Description: ...
  * <p>
  * @author Mars

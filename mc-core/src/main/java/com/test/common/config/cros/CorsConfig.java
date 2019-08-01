@@ -7,7 +7,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * Project: mc
- * Package: com.ttsh.mc.config.cros
+ * Package: com.test.common.config.cros
  * Description: ...
  * <p>
  * @author Mars

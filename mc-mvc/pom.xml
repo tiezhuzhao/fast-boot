@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.ttsh.mc</groupId>
+    <groupId>com.test.mc</groupId>
     <artifactId>mc-mvc</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -12,7 +12,7 @@
     <description>API接口服务</description>
 
     <parent>
-        <groupId>com.ttsh</groupId>
+        <groupId>com.test</groupId>
         <artifactId>mc</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
@@ -25,7 +25,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.ttsh.mc</groupId>
+            <groupId>com.test.mc</groupId>
             <artifactId>mc-core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>

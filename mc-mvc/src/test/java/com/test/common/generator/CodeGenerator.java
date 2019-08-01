@@ -20,9 +20,9 @@ public class CodeGenerator {
      */
     private static final String PACKAGE_PASH = "/mc-mvc/src/main/java/";
 
-    private static final String PACKAGE_MAPPER_PASH = "/com/ttsh/";
+    private static final String PACKAGE_MAPPER_PASH = "/com/test/";
 
-    private static final String PACKAGE_NAME = "com.ttsh";
+    private static final String PACKAGE_NAME = "com.test";
 
     /**
      * 数据库

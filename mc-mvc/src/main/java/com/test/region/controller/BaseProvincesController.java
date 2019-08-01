@@ -2,8 +2,8 @@ package com.test.region.controller;
 
 
 import com.test.common.config.Aspect.SystemLog;
-import com.test.common.config.response.ResponseResult;
-import com.test.common.config.response.ResponseResultUtil;
+import com.test.common.config.response.Result;
+import com.test.common.config.response.R;
 import com.test.region.service.IBaseProvincesService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -38,15 +38,15 @@ public class BaseProvincesController {
     @ApiImplicitParams({
             @ApiImplicitParam(name = "countryId",required = true,value = "地区")
     })
-    @SystemLog(description = "测试AOP打印日志")
+    @SystemLog(description = "查询省份信息")
     @GetMapping(value = "/getProvincesByCountryId")
-    public ResponseResult getProvincesByCountryId(String countryId) throws Exception {
+    public Result getProvincesByCountryId(String countryId) throws Exception {
         try {
-            return ResponseResultUtil.success(provincesService.getProvincesByCountryId(countryId));
+            return R.success(provincesService.getProvincesByCountryId(countryId));
         } catch (Exception e) {
             e.printStackTrace();
             logger.info(e.getMessage());
-            return ResponseResultUtil.error(e.getMessage());
+            return R.error(e.getMessage());
         }
 
     }

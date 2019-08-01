@@ -13,7 +13,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
  * Project: common
- * Package: com.ttsh.mc.config.swagger2
+ * Package: com.test.common.config.swagger2
  * Description: ...
  * <p>
  * @author zhaozhe

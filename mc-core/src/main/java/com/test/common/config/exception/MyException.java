@@ -1,10 +1,10 @@
 package com.test.common.config.exception;
 
-import com.test.common.config.response.ResponseCode;
+import com.test.common.config.response.Code;
 
 /**
  * Project: mc
- * Package: com.ttsh.mc.config.exception
+ * Package: com.test.common.config.exception
  * Description: ...
  * <p>
  * @author Mars
@@ -12,21 +12,21 @@ import com.test.common.config.response.ResponseCode;
  */
 public class MyException extends RuntimeException {
 
-    private ResponseCode code;
+    private Code code;
 
     private Object obj;
 
-    public MyException(ResponseCode code, String msg, Object obj) {
+    public MyException(Code code, String msg, Object obj) {
         super(msg);
         this.code = code;
         this.obj = obj;
     }
 
-    public ResponseCode getCode() {
+    public Code getCode() {
         return code;
     }
 
-    public void setCode(ResponseCode code) {
+    public void setCode(Code code) {
         this.code = code;
     }
 

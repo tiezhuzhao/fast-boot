@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * Project: mc
- * Package: com.ttsh.mc.aspect.auth
+ * Package: com.test.common.aspect.auth
  * Description: ...
  * <p>
  * @author Mars
